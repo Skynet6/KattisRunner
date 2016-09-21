@@ -4,11 +4,11 @@ Helps to run offline programs made for [Kattis](https://open.kattis.com/)
 
 ## How to run a program
 
-* Option 1
-1. Program (path to exe)
-2. Input file
-3. Expected output
+1. Exact files
+  * Program (path to exe)
+  * Input file
+  * Expected output
 
-* Option 2
-1. Program (path to exe)
-2. Directory with .in and .out file (name must match)
+2. Directory
+  * Program (path to exe)
+  * Directory with .in and .out file (name must match)
