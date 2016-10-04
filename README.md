@@ -12,3 +12,5 @@ Helps to run offline programs made for [Kattis](https://open.kattis.com/)
 2. Directory
   * Program (path to exe)
   * Directory with .in and .out file (name must match)
+
+Download: [KattisRunner](https://github.com/marcin-dudek/KattisRunner/releases)
