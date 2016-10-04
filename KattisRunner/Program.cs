@@ -10,6 +10,20 @@ namespace KattisRunner
     {
         static void Main(string[] args)
         {
+            if(args.Length<=0)
+            {
+                Console.WriteLine("Please specify args. You have two options:");
+                Console.WriteLine("----------------------------");
+                Console.WriteLine("\t-Program path");
+                Console.WriteLine("\t-Input file path");
+                Console.WriteLine("\t-Output file path");
+                Console.WriteLine("----------------------------");
+                Console.WriteLine("\t-Program path");
+                Console.WriteLine("\t-Directory with files");
+                Console.WriteLine("----------------------------");
+                return;
+            }
+            
             if (!File.Exists(args[0]))
             {
                 Console.WriteLine($"Path '{args[0]}' is not valid path to file");
