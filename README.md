@@ -2,6 +2,8 @@
 
 Helps to run offline programs made for [Kattis](https://open.kattis.com/)
 
+[![Build Status](https://travis-ci.org/marcin-dudek/KattisRunner.svg?branch=master)](https://travis-ci.org/marcin-dudek/KattisRunner)
+
 ## How to run a program
 
 1. Exact files
